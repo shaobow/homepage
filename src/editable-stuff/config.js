@@ -5,11 +5,11 @@ const navBar = {
 
 // Main Body SECTION
 const mainBody = {
-  gradientColors: "#4484ce, #1ad7c0, #ff9b11, #9b59b6, #ff7f7f, #ecf0f1",
+  gradientColors: "#cea759, #ffb405, #ff9b11, #f1a47b, #f1c98c",
   firstName: "Shaobo",
   middleName: "",
   lastName: "Wang",
-  message: " To build robots that change the world",
+  message: "Let's Build Robots that Make Our Life Easier",
   icons: [
     {
       image: "fa-github",
@@ -88,23 +88,24 @@ const skills = {
   show: true,
   heading: "Skills",
   hardSkills: [
-    { name: "C/C++", value: 95 },
-    { name: "MATLAB", value: 90 },
-    { name: "Simulink", value: 90 },
-    { name: "Python", value: 60 },
-    { name: "Labview", value: 45 },
+    { name: "C/Modern C++", value: 95 },
+    { name: "MATLAB/Simulink", value: 95 },
+    { name: "Python", value: 80 },
+    { name: "OMPL", value: 70 },
+    { name: "OpenCV", value: 70 },
+    { name: "ROS", value: 60 },
+    { name: "LabVIEW", value: 45 },
     { name: "Java", value: 40 },
-
   ],
   softSkills: [
-    { name: "Goal-Oriented", value: 80 },
-    { name: "Collaboration", value: 90 },
-    { name: "Positivity", value: 75 },
-    { name: "Adaptability", value: 85 },
-    { name: "Problem Solving", value: 75 },
-    { name: "Empathy", value: 90 },
-    { name: "Organization", value: 70 },
-    { name: "Creativity", value: 90 },
+    { name: "Kinematics & Dynamics Modeling", value: 95 },
+    { name: "Classical Control - PID", value: 95 },
+    { name: "Optimal Control - LQR/LQG", value: 95 },
+    { name: "(Extended) Kalman Filter", value: 90 },
+    { name: "Model Predictive Control", value: 85 },
+    { name: "System Identification", value: 85 },
+    { name: "Motion Planning", value: 85 },
+    { name: "Trajectory Optimization", value: 80 },
   ],
 };
 
@@ -112,8 +113,7 @@ const skills = {
 const getInTouch = {
   show: true,
   heading: "Get In Touch",
-  message:
-    "I'm currently looking for ... please feel free to email me at",
+  message: "If you know of any available opportunities or if you want to know more about me and my previous projects, please feel free to email me at",
   email: "shaobow@andrew.cmu.edu",
 };
 
