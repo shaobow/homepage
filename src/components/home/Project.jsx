@@ -9,6 +9,7 @@ const dummyProject = {
   name: null,
   description: null,
   svn_url: null,
+  img: null,
   stargazers_count: null,
   languages_url: null,
   pushed_at: null,
@@ -26,33 +27,54 @@ const Project = ({ heading, username, length, specfic }) => {
 
   const [projectsArray, setProjectsArray] = useState([]);
 
-  const fetchRepos = useCallback(async () => {
-    let repoList = [];
-    try {
-      // getting all repos
-      const response = await axios.get(allReposAPI);
-      // slicing to the length
-      repoList = [...response.data.slice(0, length)];
-      // adding specified repos
-      try {
-        for (let repoName of specfic) {
-          const response = await axios.get(`${specficReposAPI}/${repoName}`);
-          repoList.push(response.data);
-        }
-      } catch (error) {
-        console.error(error.message);
-      }
-      // setting projectArray
-      // TODO: remove the duplication.
-      setProjectsArray(repoList);
-    } catch (error) {
-      console.error(error.message);
+  // const fetchRepos = useCallback(async () => {
+  //   let repoList = [];
+  //   try {
+  //     // getting all repos
+  //     const response = await axios.get(allReposAPI);
+  //     // slicing to the length
+  //     repoList = [...response.data.slice(0, length)];
+  //     // adding specified repos
+  //     try {
+  //       for (let repoName of specfic) {
+  //         const response = await axios.get(`${specficReposAPI}/${repoName}`);
+  //         repoList.push(response.data);
+  //       }
+  //     } catch (error) {
+  //       console.error(error.message);
+  //     }
+  //     // setting projectArray
+  //     // TODO: remove the duplication.
+  //     setProjectsArray(repoList);
+  //   } catch (error) {
+  //     console.error(error.message);
+  //   }
+  // }, [allReposAPI, length, specfic, specficReposAPI]);
+
+  // useEffect(() => {
+  //   fetchRepos();
+  // }, [fetchRepos]);
+
+  const getProject = useCallback(async()=>{
+    let projList = [];
+    for(let proj of specfic){
+      const thisProject = {
+        name: proj.name,
+        description: proj.description,
+        svn_url: proj.url,
+        img: proj.img,
+        stargazers_count: null,
+        languages_url: null,
+        pushed_at: null,
+      };
+      projList.push(thisProject);
     }
-  }, [allReposAPI, length, specfic, specficReposAPI]);
+    setProjectsArray(projList);
+  }, [length, specfic]);
 
   useEffect(() => {
-    fetchRepos();
-  }, [fetchRepos]);
+    getProject();
+  }, [getProject]);
 
   return (
     <Jumbotron fluid id="projects" className="bg-light m-0">

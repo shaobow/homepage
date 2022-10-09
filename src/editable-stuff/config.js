@@ -55,8 +55,46 @@ const repos = {
   show: true,
   heading: "Recent Projects",
   gitHubUsername: "shaobow", //i.e."johnDoe12Gh"
-  reposLength: 4,
-  specificRepos: [],
+  reposLength: 0,
+  specificRepos: [
+    {
+      name: "Controller Design for Autonomous Vehicles", 
+      description: "Implemented Model Predictive Controller for the lateral control and PID controller for the longitudinal control of autonomous vehicles to realize trajectory tracking mission under Webots simulation environment. Deployed A-star planning algorithm to avoid low-speed moving obstacles by re-planning a feasible bypass path.",
+      url: "https://www.youtube.com/embed/rqU7hHf4AkE",
+      img: null,
+    },
+    {
+      name: "Vision-based Tracking Manipulator", 
+      description: "Designed motion detection algorithms with OpenCV to command 6-DoF robot arms to track moving targets in real-time by solving kinematic chains using estimated spatial poses of mounted QR-code markers.",
+      url: "https://www.youtube.com/embed/LTpwABq_v98",
+      img: null,
+    },  
+    { 
+      name: "Monopedal Jumping Robot Prototyping & Research", 
+      description: "Performed the hybrid dynamics modeling and simulation of a two-DoF single-legged robot to guide the mechanical design and the BLDC motor selection. Researched the effects of the tibia-femur length ratio on jumping performance.",
+      url: "https://www.youtube.com/embed/hgM66DvefM4", 
+      img: null,
+    },
+    { 
+      name: "OpenCity Flight Simulator", 
+      description: "Developed lightweight 3D-graphic UAV control simulator with an approximated aerodynamic environment using C++ and modern OpenGL and included a bonus feature of automated collision avoidance.",
+      url: "https://www.youtube.com/embed/hylREWDKsfI", 
+      img: null,
+    },
+    { 
+      name: "A Wearable Device for Hand Gesture Recognition", 
+      description: "Designed motion intention sensor for robot control based on flexible-printed-circuit technique and capacitance digital converter to measure capacitance variation during muscle contraction on a 10-picofarad scale.", 
+      url: "https://www.youtube.com/embed/TnT9zevwa8A",
+      img: null,
+    },
+    { 
+      name: "Lower-limb Exoskeleton Robot", 
+      description: "Designed cam outline for knee joint mechanisms by mimicking joint trajectory’s changing instant center of rotation for better exoskeleton wearing experience.",
+      url: "https://www.youtube.com/embed/-2YrK5mEqFM", 
+      img: null,
+    },
+
+  ],
 };
 
 // Leadership SECTION
