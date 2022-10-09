@@ -1,18 +1,18 @@
 {
   "files": {
-    "main.css": "/static/css/main.778eeed7.css",
-    "main.js": "/static/js/main.78b9da48.js",
-    "static/js/787.4b24f717.chunk.js": "/static/js/787.4b24f717.chunk.js",
-    "static/media/shaobow.png": "/static/media/shaobow.30e5d693714d45f1666b.png",
-    "static/media/Resume_shaobow_Control.pdf": "/static/media/Resume_shaobow_Control.f086418a694afabb1615.pdf",
-    "static/media/jnj.png": "/static/media/jnj.d2ae50b578b0518f589a.png",
-    "index.html": "/index.html",
-    "main.778eeed7.css.map": "/static/css/main.778eeed7.css.map",
-    "main.78b9da48.js.map": "/static/js/main.78b9da48.js.map",
-    "787.4b24f717.chunk.js.map": "/static/js/787.4b24f717.chunk.js.map"
+    "main.css": "/homepage/static/css/main.778eeed7.css",
+    "main.js": "/homepage/static/js/main.8f078bac.js",
+    "static/js/787.4b24f717.chunk.js": "/homepage/static/js/787.4b24f717.chunk.js",
+    "static/media/shaobow.png": "/homepage/static/media/shaobow.30e5d693714d45f1666b.png",
+    "static/media/Resume_shaobow_Control.pdf": "/homepage/static/media/Resume_shaobow_Control.f086418a694afabb1615.pdf",
+    "static/media/jnj.png": "/homepage/static/media/jnj.d2ae50b578b0518f589a.png",
+    "index.html": "/homepage/index.html",
+    "main.778eeed7.css.map": "/homepage/static/css/main.778eeed7.css.map",
+    "main.8f078bac.js.map": "/homepage/static/js/main.8f078bac.js.map",
+    "787.4b24f717.chunk.js.map": "/homepage/static/js/787.4b24f717.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.778eeed7.css",
-    "static/js/main.78b9da48.js"
+    "static/js/main.8f078bac.js"
   ]
 }
