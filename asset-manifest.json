@@ -1,0 +1,18 @@
+{
+  "files": {
+    "main.css": "/home/static/css/main.778eeed7.css",
+    "main.js": "/home/static/js/main.8bb864f7.js",
+    "static/js/787.4b24f717.chunk.js": "/home/static/js/787.4b24f717.chunk.js",
+    "static/media/shaobow.png": "/home/static/media/shaobow.30e5d693714d45f1666b.png",
+    "static/media/Resume_shaobow_Control.pdf": "/home/static/media/Resume_shaobow_Control.f086418a694afabb1615.pdf",
+    "static/media/jnj.png": "/home/static/media/jnj.d2ae50b578b0518f589a.png",
+    "index.html": "/home/index.html",
+    "main.778eeed7.css.map": "/home/static/css/main.778eeed7.css.map",
+    "main.8bb864f7.js.map": "/home/static/js/main.8bb864f7.js.map",
+    "787.4b24f717.chunk.js.map": "/home/static/js/787.4b24f717.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.778eeed7.css",
+    "static/js/main.8bb864f7.js"
+  ]
+}
