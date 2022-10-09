@@ -122,9 +122,16 @@ const experiences = {
   heading: "Experiences",
   data: [
     {
-      role: 'Robotics and Controls Intern @ Johnson&Johnson MedTech',// Here Add Company Name
+      companyname: 'Carnegie Mellon University',
+      role: 'Course Assistant',// Here Add Company Name
+      companylogo: require('../assets/img/cmu.png'),
+      date: 'September 2022 – Present',
+    },
+    {
+      companyname: 'Johnson & Johnson MedTech',
+      role: 'Robotics and Controls Intern',// Here Add Company Name
       companylogo: require('../assets/img/jnj.png'),
-      date: 'June 2018 – Present',
+      date: 'May 2022 – August 2022',
     },
   ]
 }
